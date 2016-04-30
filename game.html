@@ -4,17 +4,34 @@
          <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="game.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700' rel='stylesheet' type='text/css'>
+        <script src="jquery-1.12.3.min.js"></script>
+        <script src="jquery.magnific-popup.min.js"></script>
+    <script>
+        $('.open-popup-link').magnificPopup({
+  type:'inline',
+  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+});
+        
+        </script>
     </head>
     <body>
+        <div class="file1">
+        <i class="fa fa-file-o fa-3x" aria-hidden="true"></i>
+        <p class="file-text">READ ME</p>
+        </div>
+       <div id="test-popup" class="white-popup mfp-hide">
+  Popup content
+</div>
+		<a href="#test-popup" class="open-popup-link">Show inline popup</a>
     </body>
     
     
     
     
     
-    
-    
-    
+
     
     
     

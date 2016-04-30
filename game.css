@@ -1,3 +1,25 @@
 body {
     background-color: cadetblue;
+    font-family: 'Arvo', serif;
+}
+
+.file1 {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.file-text {
+    padding: 0px;
+    margin: 0px;
+    font-size: .8em;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
 }
